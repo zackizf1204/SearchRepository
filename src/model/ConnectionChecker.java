@@ -15,7 +15,7 @@ public class ConnectionChecker {
 
   }
 
-  public static boolean netIsAvailable() {
+  public  boolean netIsAvailable() {
     try {
       final URL url = new URL("http://www.github.com");
       final URLConnection conn = url.openConnection();
