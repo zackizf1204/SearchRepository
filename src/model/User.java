@@ -18,10 +18,14 @@ public class User {
 
   public User() {
     ListOfUser = new ArrayList<>();
+    RepoMax = 9999;
+    RepoMin = 0;
   }
 
-  public User(String keyword) {
+  public User(String key) {
+    searchKey = key;
     ListOfUser = new ArrayList<>();
-
+    RepoMax = 9999;
+    RepoMin = 0;
   }
 }
